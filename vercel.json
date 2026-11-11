@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/api/avaliacoes",
-      "destination": "http://3.235.6.136:8080/avaliacoes"
+      "source": "/api/tarefa",
+      "destination": "http://3.235.6.136:8080/tarefa"
     },
     {
-      "source": "/api/avaliacoes/:path*",
-      "destination": "http://3.235.6.136:8080/avaliacoes/:path*"
+      "source": "/api/tarefa/:path*",
+      "destination": "http://3.235.6.136:8080/tarefa/:path*"
     }
   ]
 }

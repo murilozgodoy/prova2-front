@@ -17,8 +17,8 @@ function App() {
     return (
       <div className="center">
         <div className="card login">
-          <h1>Sistema de Avaliações</h1>
-          <p className="muted">Entre para ver e cadastrar avaliações.</p>
+          <h1>Sistema de Tarefas</h1>
+          <p className="muted">Entre para ver e gerenciar as tarefas.</p>
           <LoginButton />
         </div>
       </div>
@@ -32,7 +32,7 @@ function App() {
           className={currentPage === 'avaliacoes' ? 'btn' : 'btn btn-secondary'}
           onClick={() => setCurrentPage('avaliacoes')}
         >
-          Avaliações
+          Tarefas
         </button>
         <button
           className={currentPage === 'home' ? 'btn' : 'btn btn-secondary'}
