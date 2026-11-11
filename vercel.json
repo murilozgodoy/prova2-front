@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/avaliacoes",
+      "destination": "http://3.235.6.136:8080/avaliacoes"
+    },
+    {
+      "source": "/api/avaliacoes/:path*",
+      "destination": "http://3.235.6.136:8080/avaliacoes/:path*"
+    }
+  ]
+}
